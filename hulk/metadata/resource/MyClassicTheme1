@@ -1,0 +1,30 @@
+{
+    "type": "classicthemeresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyClassicTheme1"
+    },
+    "designerId": "41df808d-6e18-45ae-a0cc-2f1c996a2db1",
+    "storage": {
+        "needsCompile": false,
+        "simple": {
+            "pkgVersion": 1
+        },
+        "nameIndex": 1,
+        "varData": {
+            "Ext.menu.Menu": {
+                "globalVars": [
+                    {
+                        "name": "menu-item-font-size",
+                        "enabled": true,
+                        "value": "ceil($font-size * 1.2)"
+                    }
+                ]
+            }
+        }
+    }
+}

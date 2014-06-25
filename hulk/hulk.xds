@@ -1,0 +1,47 @@
+{
+    "name": "hulk",
+    "settings": {
+        "cmd": {},
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "http://localhost:8080/esmScenario",
+        "exportPath": "/usr/local/apache-tomcat-7.0.26/webapps/ROOT/esmScenario",
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": true,
+        "cacheBust": true,
+        "displayfield-ExtBox1-1738-inputEl": "Not Installed",
+        "displayfield-ExtBox1-2206-inputEl": "Not Installed"
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "353f0c49-9162-4dc5-8e2d-ffb09f0d3a62"
+        ],
+        "store": [],
+        "controller": [
+            "02e19093-9c6b-4222-8b96-2632f82d7303"
+        ],
+        "model": [],
+        "resource": [
+            "efa3151d-f411-416b-a78d-276e3b22783a",
+            "f4a82a4a-547d-4408-86fd-bab1bccdf96b",
+            "41df808d-6e18-45ae-a0cc-2f1c996a2db1"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

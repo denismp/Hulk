@@ -1,0 +1,451 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MainView",
+        "itemId": "mainView",
+        "layout": "border"
+    },
+    "designerId": "353f0c49-9162-4dc5-8e2d-ffb09f0d3a62",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "menuPanel",
+                "layout|region": "west",
+                "layout|split": true,
+                "title": "Menu",
+                "width": 150
+            },
+            "designerId": "70e4bdc2-8c21-4da3-b357-bdac73847e65",
+            "cn": [
+                {
+                    "type": "Ext.menu.Menu",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "floating": false,
+                        "itemId": null,
+                        "width": null
+                    },
+                    "designerId": "25abbee3-e977-4e92-bc3a-73fcf2aea764",
+                    "cn": [
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "href": null,
+                                "itemId": "home",
+                                "text": "Home"
+                            },
+                            "designerId": "2d21cd52-2bd4-4f26-99f8-ecb1b8453ece"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "open",
+                                "text": "Open Scenario"
+                            },
+                            "designerId": "a44660e8-9226-4451-b36b-7abe4ec6ba56"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "create",
+                                "text": "Create Scenario"
+                            },
+                            "designerId": "84b38481-09b4-42e9-bdbd-3ab99b62e155"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "edit",
+                                "text": "Edit Scenario"
+                            },
+                            "designerId": "818b202c-ce4a-4470-a1db-e2b0e5b9acb2"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "href": null,
+                                "itemId": "about",
+                                "text": "About Us"
+                            },
+                            "designerId": "a9c5c2c5-e485-4719-a39d-1f3df3d72393"
+                        },
+                        {
+                            "type": "Ext.menu.Item",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "href": null,
+                                "itemId": "contact",
+                                "text": "Contact us"
+                            },
+                            "designerId": "9f67ea74-e63c-4b04-b4c2-4130f7cbd1f8"
+                        },
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onMenuClick",
+                                "implHandler": [
+                                    "location.hash = item.itemId;"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "designerId": "6aabf84c-692c-4a9f-9b11-0d46214a63b5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "contentPanel",
+                "layout": "card",
+                "layout|region": "center",
+                "title": null
+            },
+            "designerId": "c98c4f91-6f66-4054-8e31-2ccc2ab4f975",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "itemId": "homePanel",
+                        "layout": "vbox",
+                        "title": "Home",
+                        "width": null
+                    },
+                    "designerId": "6e0310e2-3829-40e2-acea-c3d80afea341",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "text": "Home View"
+                            },
+                            "designerId": "3c8a041c-5502-4ce2-a822-597ddafe4b34"
+                        },
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoShow": true,
+                                "height": 400,
+                                "layout|flex": null,
+                                "src": "http://i45.photobucket.com/albums/f59/EckoUnltd23/8g4bfht.gif",
+                                "width": 300
+                            },
+                            "designerId": "a9b518f0-f4e5-43e4-85c0-94bdcf9c8753"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "itemId": "openPanel",
+                        "layout": "vbox",
+                        "title": "Home",
+                        "width": null
+                    },
+                    "designerId": "81262b49-1a48-4597-86f0-f510a4c6793f",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Open Scenario View"
+                            },
+                            "designerId": "5c52e7f4-23cd-4439-815e-d89bdc0b78db"
+                        },
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoShow": true,
+                                "height": 400,
+                                "layout|flex": null,
+                                "src": "http://i220.photobucket.com/albums/dd66/Bluedually4x4/TheIncredibleHulk.jpg",
+                                "width": 300
+                            },
+                            "designerId": "0422adf3-e3da-4dd2-abcb-880551923b44"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "itemId": "createPanel",
+                        "layout": "vbox",
+                        "title": "Home",
+                        "width": null
+                    },
+                    "designerId": "f7502c7a-364f-4286-a681-b1333c2f3e00",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "Create Scenario View"
+                            },
+                            "designerId": "5caa094d-d5d0-40cb-9064-55b0a095d404"
+                        },
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoShow": true,
+                                "height": 400,
+                                "layout|flex": null,
+                                "src": "http://i235.photobucket.com/albums/ee229/photophatty67/hulk04.gif",
+                                "width": 400
+                            },
+                            "designerId": "d419e3c0-a10f-4479-adeb-b03b449dcadd"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "itemId": "editPanel",
+                        "layout": "vbox",
+                        "title": "Home",
+                        "width": null
+                    },
+                    "designerId": "49977bfa-b8e9-47d7-a818-a9055995b740",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "Edit Scenario View"
+                            },
+                            "designerId": "a567f34f-f503-49fb-983b-617882b17c93"
+                        },
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoShow": true,
+                                "height": 400,
+                                "layout|flex": null,
+                                "src": "http://i261.photobucket.com/albums/ii80/xfactorg1/hulk.gif",
+                                "width": 400
+                            },
+                            "designerId": "f6e483fb-b3fb-4b2d-98c3-bb585b45170b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "itemId": "aboutPanel",
+                        "layout": "vbox",
+                        "title": "About Us"
+                    },
+                    "designerId": "daf95a82-9e4f-4afd-b806-c2cc1b902fad",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "About Us View"
+                            },
+                            "designerId": "7179b2cc-4d46-4d6f-81d7-7672eac6c1e6"
+                        },
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoShow": true,
+                                "height": 400,
+                                "layout|flex": null,
+                                "src": "http://i680.photobucket.com/albums/vv161/Jose-ave93/Hulkvswolverine.jpg",
+                                "width": 400
+                            },
+                            "designerId": "4355e8e9-b7f6-4148-be9a-9c71e455d52b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "center",
+                        "container|pack": "center",
+                        "itemId": "contactPanel",
+                        "layout": "vbox",
+                        "title": "Contact Us"
+                    },
+                    "designerId": "bdce8a33-1e17-42fa-bdbd-f2e50d0d22da",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "Contact Us View"
+                            },
+                            "designerId": "d6c3094e-58c9-4996-a39e-015335bf8746"
+                        },
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "autoShow": true,
+                                "height": 400,
+                                "layout|flex": null,
+                                "src": "http://i382.photobucket.com/albums/oo261/8-2-B-4-9-5/HulkBeingAmbushed.jpg",
+                                "width": 400
+                            },
+                            "designerId": "56b42a18-9659-4eb5-b8fb-657f2da0f7aa"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
